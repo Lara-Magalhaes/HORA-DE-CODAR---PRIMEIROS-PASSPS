@@ -31,7 +31,7 @@ enquanto( d < 0 ou d > 10) { escreva("Esse número não é aceito. Tente de novo
 soma = soma + d
 
 media=soma/4
-se(media < 5){escreva("Que pena! Sua média não suficiente. Tente novamente")} senao {escreva("Parabéns! Você passou no teste!")}
+se(media < 5){escreva("Que pena! Sua média não é suficiente. Tente novamente")} senao {escreva("Parabéns! Você passou no teste!")}
 
 
 
