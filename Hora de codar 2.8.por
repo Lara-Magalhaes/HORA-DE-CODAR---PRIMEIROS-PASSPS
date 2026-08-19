@@ -34,7 +34,18 @@ media=soma/4
 se(media < 5){escreva("Que pena! Sua média não é suficiente" , "(", media, ").",  " Tente novamente.")} 
 senao {escreva("Parabéns! Você passou no teste! Sua média foi:" , media)}
 
+//2.8 FIM 
 
+//2.9 Leia o ano de nascimento e informe se a pessoa pode votar no ano atual (sem considerar o mês).
+const inteiro ATUAL = 2026
+	inteiro NASC
+	inteiro sub
+
+	escreva("Digite seu ano de nascimento: ") leia(NASC) 
+	sub = (ATUAL - NASC) 
+	limpa()
+	escreva("Você tem " , sub ," anos. ") 
+	se(sub >= 18) {escreva("\nEntão poderá votar esse ano")}
 
 
 
